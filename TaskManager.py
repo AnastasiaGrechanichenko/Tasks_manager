@@ -34,6 +34,7 @@ class TaskManager:
 
     # Сохранение и загрузка из JSON
     def save_to_file(self):
+        
         tasks_list = []
         for task in self.__tasks:
             tasks_list.append({
